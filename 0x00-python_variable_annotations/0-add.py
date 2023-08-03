@@ -6,6 +6,12 @@ Function that adds 2 floats
 
 def add(a: float, b: float) -> float:
     '''
-    Returns the addition of 2 floats
+    Addition of floats
+
+    Args:
+        a: Float to add
+        b: Float to add
+
+    Returns: The addition of a and b
     '''
     return a + b

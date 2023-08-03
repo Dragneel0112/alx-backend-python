@@ -6,6 +6,11 @@ A function that provides the floor number
 
 def floor(a: float) -> int:
     '''
-    Returns the floor value of a float
+    A function that produces the floor value
+
+    Args
+        a: Float variable to floor
+
+    Returns: The floor value of a float
     '''
     return int(a)
