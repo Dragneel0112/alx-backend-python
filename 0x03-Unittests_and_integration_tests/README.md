@@ -8,7 +8,7 @@
 
 ## Tasks
 
-## Mandatory
+### Mandatory
 
 | Tasks | Description | Files |
 | ----- | ----- | ----- |
@@ -24,4 +24,6 @@
 
 ### Advanced
 
+| Tasks | Description | Files |
+| ----- | ----- | ----- |
 | <ul><li> - [ ] Task 9 </li></ul> | 9. Integration tests | [test_client.py](test_client.py) |
