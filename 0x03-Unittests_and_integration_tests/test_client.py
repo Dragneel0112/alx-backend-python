@@ -170,6 +170,15 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
             self.expected_repos,
         )
 
+    def test_public_repos_with_license(self) -> None:
+        '''
+        Tests method if public repo contain license
+        '''
+        self.assertEqual(
+            GithubOrgClient("google").public_repos(license="apache-2.0"),
+            self.apache2_repos,
+        )
+
     @classmethod
     def tearDownClass(cls) -> None:
         '''
